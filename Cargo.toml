@@ -15,12 +15,14 @@ exclude = [".github"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies.bevy]
-version = "0.12"
+git = "https://github.com/bevyengine/bevy.git"
+branch = "main"
 default-features = false
 features = ["bevy_ui", "bevy_asset", "bevy_text"]
 
 [dev-dependencies.bevy]
-version = "0.12"
+git = "https://github.com/bevyengine/bevy.git"
+branch = "main"
 default-features = true
 
 [lints.rust]
